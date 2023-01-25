@@ -1,0 +1,13 @@
+.DS_STORE
+handson-ml3/
+.ipynb*/
+.idea/
+env/
+tmp/
+data/
+talent/
+handson-ml3/
+*database.yml
+*.bkp
+*.pkl
+__pycache__/
