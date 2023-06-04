@@ -6,9 +6,9 @@ env/
 tmp/
 data/
 talent/
-handson-ml3/
 ch03/spam/
 *database.yml
 *.bkp
 *.pkl
 __pycache__/
+venv_tensor/

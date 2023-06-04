@@ -39,3 +39,18 @@ conda activate homl3
 python -m ipykernel install --user --name=python3
 ```
 
+### Alternative without Conda:
+https://medium.com/@sorenlind/tensorflow-with-gpu-support-on-apple-silicon-mac-with-homebrew-and-without-conda-miniforge-915b2f15425b
+
+```
+brew install hdf5
+pip install tensorflow-macos
+pip install tensorflow-metal
+```
+
+Ensure that this is the output:
+```
+import tensorflow as tf
+tf.config.list_physical_devices("GPU")
+# => [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+```
