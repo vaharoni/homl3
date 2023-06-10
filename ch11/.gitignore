@@ -1,0 +1,15 @@
+01-sgd
+02-adam
+02b-nadam
+03-sgd-no-norm
+04-adam-no-norm
+05-nadam-no-norm
+06-nadam-defaults-no-norm
+07-adam-default-bn
+08-adam-custom-bn
+08-nadam-default-bn
+09-nadam-book
+10-selu
+11-alpha-dropout
+my_cifar10_bn_model
+my_cifar10_logs
