@@ -7,6 +7,7 @@ tmp/
 data/
 talent/
 ch03/spam/
+models/
 *database.yml
 *.bkp
 *.pkl
